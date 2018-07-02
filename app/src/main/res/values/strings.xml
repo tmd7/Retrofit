@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+  <string name="hint_edit_city">Enter a city name</string>
+  <string name="ok">ok</string>
+  <string name="tem_d">Tem.: %d</string>
+  <string name="hum_d">Hum.: %d</string>
+  <string name="press_d">Press.: %d</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_med"
+    >
+
+  <EditText
+      android:id="@+id/edit_city"
+      android:layout_width="@dimen/edit_city_width"
+      android:layout_height="wrap_content"
+      android:hint="@string/hint_edit_city"
+      android:inputType="text"
+      />
+
+  <Button
+      android:id="@+id/bt_ok"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/ok"
+      />
+
+  <TextView
+      android:id="@+id/text_view_city"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/text_size_large"
+      tools:text="Moscow"
+      />
+
+  <TextView
+      android:id="@+id/text_view_tem"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/text_size_med"
+      android:text="@string/tem_d"
+      />
+
+  <TextView
+      android:id="@+id/text_view_hum"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/text_size_med"
+      android:text="@string/hum_d"
+      />
+
+  <TextView
+      android:id="@+id/text_view_press"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/text_size_med"
+      android:text="@string/press_d"
+      />
+
+</LinearLayout>

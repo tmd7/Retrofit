@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="edit_city_width">150dp</dimen>
+  <dimen name="padding_med">16dp</dimen>
+  <dimen name="text_size_large">20pt</dimen>
+  <dimen name="text_size_med">10pt</dimen>
+</resources>
